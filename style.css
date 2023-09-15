@@ -5,18 +5,18 @@ body {
    background-attachment: fixed;
    background-position: center center;
    font-family: Arial;
-   color: black; /* Cor da fonte preta */
+   color: black; 
    margin: 0;
    padding: 0;
    display: flex;
    flex-direction: column;
-   justify-content: flex-start; /* Corrigido o typo "fustify-items" para "justify-content" */
+   justify-content: flex-start; 
    align-items: center;
    height: 100vh;
 }
 
 #content {
-   background-color: rgba(0, 0, 0, 0.7); /* Cor com transparência */
+   background-color: rgba(0, 0, 0, 0.7); 
    padding: 20px;
 }
 
@@ -27,7 +27,7 @@ p {
    text-align: left;
 }
 
-h1, h2, h3, h4, h5, h6 { /* Adicionei h1, h2, h3, h4, h5 e h6 para definir tamanhos de fonte para títulos */
+h1, h2, h3, h4, h5, h6 { 
    font-size: 36px;
    margin-top: 25px;
    text-align: center;
