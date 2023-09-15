@@ -6,6 +6,7 @@ body {
    bakground-attachment:fixed;
    background-position:center center;
    font-family:Arial;
+   text-color:black;
    margin:0;
    padding:0;
   display: flex;
