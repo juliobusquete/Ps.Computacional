@@ -1,14 +1,26 @@
 body {
 
-   display: flex;
+   background-image:url;
+   background-size:cover;
+   background-repeat:no-repeat;
+   bakground
+
+    display: flex;
   flex-direction: column;
   fustify-items: flex-started;
   align-items: center;
   height: 100vh;
   margin: 0;
   text-align: center
+    p {
+    max-width: 500px;
+    margin-bottom: 20px;
+    
+  }
+  
+  h1 {
 
-   background-image:url;
-   background-size:cover;
-   background-repeat:no-repeat;
-   bakground
+  margin-top: 25px;
+   text-align: center;
+ 
+  }
