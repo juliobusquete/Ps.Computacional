@@ -5,7 +5,6 @@ body {
    background-repeat:no-repeat;
    bakground-attachment:fixed;
    background-position:center center;
-   color:white;
    font-family:Arial;
    margin:0;
    padding:0;
@@ -20,6 +19,7 @@ body {
 
 # content {
    
+    color:white;
    background-color: rgba(0,0,0.7);
    padding:20px;
 
