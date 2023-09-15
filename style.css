@@ -1,44 +1,34 @@
 body {
-
-   background-image:url;
-   background-size:cover;
-   background-repeat:no-repeat;
-   bakground-attachment:fixed;
-   background-position:center center;
-   font-family:Arial;
-color:black;
-   margin:0;
-   padding:0;
-  display: flex;
-  flex-direction: column;
-  fustify-items: flex-started;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-   
+   background-image: url;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   font-family: Arial;
+   color: black; /* Cor da fonte preta */
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start; /* Corrigido o typo "fustify-items" para "justify-content" */
+   align-items: center;
+   height: 100vh;
 }
 
-# content {
-   
-   background-color: rgba(0,0,0.7);
-   padding:20px;
-
+#content {
+   background-color: rgba(0, 0, 0, 0.7); /* Cor com transparência */
+   padding: 20px;
 }
 
-   
+p {
+   font-size: 20px;
+   max-width: 500px;
+   margin: 20px;
+   text-align: left;
+}
 
-    p {
-    font-size:20px;   
-    max-width: 500px;
-    margin: 20px;
-    text-align:left;
-       
-  }
-  
-  h {
-
-     font-size:36px;
-  margin-top: 25px;
+h1, h2, h3, h4, h5, h6 { /* Adicionei h1, h2, h3, h4, h5 e h6 para definir tamanhos de fonte para títulos */
+   font-size: 36px;
+   margin-top: 25px;
    text-align: center;
- 
-  }
+}
